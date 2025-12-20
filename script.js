@@ -7,6 +7,7 @@ const keys = document.querySelectorAll(`.keys`);
 let winOrLose = document.getElementById("won-or-lose-popup");
 let popup = document.getElementById("popup");
 const restart = document.querySelector(".restart");
+let guese = document.querySelector(".gueses")
 let wrongGuesses = 0
 
 
@@ -14,7 +15,8 @@ let wrongGuesses = 0
 let random = words[Math.floor(Math.random() * words.length)];
 let selectedWord = random.word.toUpperCase();
 let hint = random.hint;
-hintText.innerText = (`Hint:${hint}`)
+guese.innerHTML= (`Incorrect guese: ${wrongGuesses}/6`);
+hintText.innerText = `Hint:${hint}`;
 
 
 //creating li tags
@@ -49,8 +51,10 @@ keys.forEach(btn => {
                selectedWord.split("").forEach((letter, i) => {
                     if (letter === clickedLetter) {
                          secretWord.querySelectorAll("li")[i].innerText = letter;
-                         btn.classList.add("key-disabled")
+                         btn.classList.add("key-disabled-correct")
                          btn.disable = true;
+
+
 
                          //popup
                          let allLetterFound = [...secretWord.querySelectorAll("li")].every(li => li.textContent !== "");
@@ -93,11 +97,18 @@ keys.forEach(btn => {
           else {
 
                wrongGuesses++
+
+               guese.innerHTML= (`Incorrect guese: ${wrongGuesses}/6`);
+
                hangmanImg.setAttribute("src", `media/hangman/lives-${wrongGuesses}.png`);
                hangmanImg.classList.add("wrong-click");
                setTimeout(() => {
                     hangmanImg.classList.remove("wrong-click");
                }, 100);
+
+               btn.classList.add("key-disabled-incorrect");
+               btn.disabled = true
+
 
                //popup
                if (wrongGuesses >= 6) {
@@ -123,7 +134,7 @@ keys.forEach(btn => {
                     //restart button
                     let restart = document.createElement("button");
                     restart.classList.add("restart");
-                    restart.innerText = "restart";
+                    restart.innerText = "Restart";
                     popup.appendChild(restart);
                     restart.addEventListener("click", function () {
                          window.location.reload();
@@ -134,3 +145,4 @@ keys.forEach(btn => {
 })
 
 console.log(displayed)
+console.log(wrongGuesses)
