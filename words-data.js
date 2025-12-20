@@ -64,5 +64,66 @@ const words = [
     { word: "Kohlrabis", hint: "Bulbous stem vegetable from the cabbage clan." },
     { word: "Coriander", hint: "Herb with fragrant leaves and versatile seeds." },
 
+
+    //vehicles
+    { word: "Motorcycle", hint: "Two-wheeled speedster with a roar of freedom." },
+    { word: "Helicopter", hint: "Sky hopper that spins its way through clouds." },
+    { word: "Submarine", hint: "Deep-sea vessel that vanishes beneath the waves." },
+    { word: "Convertible", hint: "Car that loves the sun with its top rolled down." },
+    { word: "Bulldozer", hint: "Heavy machine that pushes the earth aside." },
+    { word: "Sailboat", hint: "Wind-driven traveler gliding across blue horizons." },
+    { word: "Tractor", hint: "Rural workhorse that tills and hauls with power." },
+    { word: "Airplane", hint: "Winged cruiser soaring far above the clouds." },
+    { word: "Hovercraft", hint: "Floats on air while gliding over land and water." },
+    { word: "Bicycle", hint: "Eco-friendly ride balanced on two spinning circles." },
+
+    //planets
+    { word: "Mercury", hint: "Swift planet closest to the blazing sun." },
+    { word: "Venus", hint: "Shines bright, wrapped in thick poisonous clouds." },
+    { word: "Earth", hint: "Our blue home teeming with life and oceans." },
+    { word: "Mars", hint: "The dusty red world with frozen poles." },
+    { word: "Jupiter", hint: "Gas giant with swirling storms and a giant eye." },
+    { word: "Saturn", hint: "Dazzling planet wrapped in magnificent rings." },
+    { word: "Uranus", hint: "Side-spinning world of icy blue winds." },
+    { word: "Neptune", hint: "Farthest, with dark storms and deep blue hues." },
+    { word: "Pluto", hint: "Tiny wanderer at the edge of our solar family." },
+    { word: "Kepler22b", hint: "Mysterious exoplanet with whispers of water." },
+
+    //instruments
+    { word: "Violin", hint: "Wooden string beauty that sings under a bow." },
+    { word: "Trumpet", hint: "Brass voice that blares bold and clear notes." },
+    { word: "Flute", hint: "Silver whisperer played by breath and grace." },
+    { word: "Drums", hint: "Rhythmic heart that drives every band alive." },
+    { word: "Guitar", hint: "Six-stringed storyteller from rock to romance." },
+    { word: "Sitar", hint: "Indian classic with soulful vibrating strings." },
+    { word: "Harp", hint: "Elegant frame weaving melodies from heaven." },
+    { word: "Accordion", hint: "Portable instrument that breathes music in folds." },
+    { word: "Tambourine", hint: "Jingling circle that keeps rhythm with a shake." },
+    { word: "Xylophone", hint: "Colorful bars that chime under playful mallets." },
+
+    //mythical_creatures
+    { word: "Phoenix", hint: "Fiery bird reborn from its own ashes." },
+    { word: "Unicorn", hint: "Graceful horse with a spiraled horn of magic." },
+    { word: "Dragon", hint: "Majestic beast breathing fire and legends." },
+    { word: "Mermaid", hint: "Half-human ocean dweller with shimmering fins." },
+    { word: "Griffin", hint: "Winged guardian mixing lion and eagle might." },
+    { word: "Minotaur", hint: "Bull-headed giant lost in a labyrinth maze." },
+    { word: "Kraken", hint: "Sea monster with tentacles that crush ships whole." },
+    { word: "Fairy", hint: "Tiny winged being sprinkling charm and mischief." },
+    { word: "Werewolf", hint: "Beast that howls under the watchful full moon." },
+    { word: "Pegasus", hint: "Flying horse racing through celestial skies." },
+
+    //mythical_creatures
+    { word: "Phoenix", hint: "Fiery bird reborn from its own ashes." },
+    { word: "Unicorn", hint: "Graceful horse with a spiraled horn of magic." },
+    { word: "Dragon", hint: "Majestic beast breathing fire and legends." },
+    { word: "Mermaid", hint: "Half-human ocean dweller with shimmering fins." },
+    { word: "Griffin", hint: "Winged guardian mixing lion and eagle might." },
+    { word: "Minotaur", hint: "Bull-headed giant lost in a labyrinth maze." },
+    { word: "Kraken", hint: "Sea monster with tentacles that crush ships whole." },
+    { word: "Fairy", hint: "Tiny winged being sprinkling charm and mischief." },
+    { word: "Werewolf", hint: "Beast that howls under the watchful full moon." },
+    { word: "Pegasus", hint: "Flying horse racing through celestial skies." },
+
 ]
-window.words = words 
+
