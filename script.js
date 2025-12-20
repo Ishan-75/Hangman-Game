@@ -24,8 +24,8 @@ secretWord.innerHTML = selectedWord.split("").map(() => `<li class="word-letter"
 
 
 // calculating letters to hide
-let minHide = Math.ceil((selectedWord.length) * 0.5);
-let maxHide = Math.ceil((selectedWord.length) * 0.7);
+let minHide = Math.ceil((selectedWord.length) * 0.3);
+let maxHide = Math.ceil((selectedWord.length) * 0.5);
 let letterToHide = Math.floor(Math.random() * (maxHide - minHide + 1)) + minHide;
 
 
@@ -144,5 +144,3 @@ keys.forEach(btn => {
      })
 })
 
-console.log(displayed)
-console.log(wrongGuesses)
