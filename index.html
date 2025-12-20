@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/style.css">
+
+    <title>Hangman</title>
+</head>
+
+<body>
+
+
+    <div class="hangman-stage">
+        <div class="hangman">
+            <img src="media/hangman/lives-0.png" alt="stickman" class="hangman-image" id="hangman_image">
+        </div>
+
+    </div>
+
+    <div class="guessing-area">
+        <div class="secret-word-area">
+            <div class="secret-word" id="secret_word">
+            </div>
+            <p class="hint" id="hint"></p>
+            <p class="gueses">Incorrect guese: 0/6</p>
+        </div>
+
+        <div class="keyboard">
+
+            <button class="keys" id="key_a">a</button>
+            <button class="keys" id="key_b">b</button>
+            <button class="keys" id="key_c">c</button>
+            <button class="keys" id="key_d">d</button>
+            <button class="keys" id="key_e">e</button>
+            <button class="keys" id="key_f">f</button>
+            <button class="keys" id="key_g">g</button>
+            <button class="keys" id="key_h">h</button>
+            <button class="keys" id="key_i">i</button>
+            <button class="keys" id="key_j">j</button>
+            <button class="keys" id="key_k">k</button>
+            <button class="keys" id="key_l">l</button>
+            <button class="keys" id="key_m">m</button>
+            <button class="keys" id="key_n">n</button>
+            <button class="keys" id="key_o">o</button>
+            <button class="keys" id="key_p">p</button>
+            <button class="keys" id="key_q">q</button>
+            <button class="keys" id="key_r">r</button>
+            <button class="keys" id="key_s">s</button>
+            <button class="keys" id="key_t">t</button>
+            <button class="keys" id="key_u">u</button>
+            <button class="keys" id="key_v">v</button>
+            <button class="keys" id="key_w">w</button>
+            <button class="keys" id="key_x">x</button>
+            <button class="keys" id="key_y">y</button>
+            <button class="keys" id="key_z">z</button>
+        </div>
+
+    </div>
+
+    <div  id="won-or-lose-popup">
+        <div  id="popup">
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="words-data.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

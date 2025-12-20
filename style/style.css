@@ -1,0 +1,80 @@
+*,*::before,*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --pri-color:#222831;
+    --sec-color:#393E46;
+    --accent1:#948979;
+    --accent2:#DFD0B8;
+    --border-color:rgb(211, 211, 202);
+}
+
+/* knewave-regular - latin */
+@font-face {
+  /* tektur-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Tektur';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/tektur-v6-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* tektur-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Tektur';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/tektur-v6-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* tektur-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Tektur';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/tektur-v6-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* tektur-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Tektur';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/tektur-v6-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* tektur-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Tektur';
+  font-style: normal;
+  font-weight: 800;
+  src: url('../fonts/tektur-v6-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* tektur-900 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Tektur';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../fonts/tektur-v6-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+}
+
+html{
+    font-size: 16px;
+    font-family:"Knewave",sans-serif ;
+    color: var(--accent2);
+}
+body{
+    background:var(--pri-color);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+  
+}
+
+
+
