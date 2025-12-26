@@ -1,4 +1,4 @@
-"use scrict"
+"use strict"
 //selecting elements
 let hangmanImg = document.getElementById(`hangman_image`)
 const hintText = document.getElementById(`hint`);
